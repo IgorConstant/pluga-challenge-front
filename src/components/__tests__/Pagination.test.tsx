@@ -1,3 +1,18 @@
+/**
+ * Testes do componente Pagination
+ *
+ * Este arquivo contém testes unitários para o componente Pagination, responsável por exibir e controlar a navegação entre páginas.
+ *
+ * Casos testados:
+ * 1. Renderização dos botões: Verifica se os botões de página são exibidos conforme o valor de maxPage.
+ * 2. Clique nos botões: Garante que a função setPage é chamada com o valor correto ao clicar nos botões de página, anterior e próximo.
+ * 3. Estado dos botões: Testa se os botões anterior/próximo ficam desabilitados nas extremidades.
+ * 4. Destaque da página ativa: Verifica se o botão da página ativa recebe a classe btn-active.
+ *
+ * Ferramentas utilizadas:
+ * - @testing-library/react: Para renderização e simulação de interações.
+ * - jest: Para mocks e execução dos testes.
+ */
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import { Pagination } from "../Pagination";

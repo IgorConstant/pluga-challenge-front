@@ -1,3 +1,19 @@
+/**
+ * Testes do componente AppGrid
+ *
+ * Este arquivo contém testes unitários para o componente AppGrid, responsável por exibir uma grade de aplicativos e lidar com interações do usuário.
+ *
+ * Casos testados:
+ * 1. Renderização dos cards: Verifica se a quantidade correta de cards é exibida.
+ * 2. Seleção de card: Garante que a função onSelect é chamada ao clicar em um card.
+ * 3. Colunas da grade: Testa se a classe de colunas é aplicada corretamente conforme a prop columns.
+ * 4. Valor padrão de colunas: Verifica se o padrão é 4 colunas quando a prop columns não é fornecida ou é inválida.
+ * 5. Renderização vazia: Garante que nada é renderizado se o array de apps estiver vazio.
+ *
+ * Ferramentas utilizadas:
+ * - @testing-library/react: Para renderização e simulação de interações.
+ * - jest: Para mocks, simulação de componentes e execução dos testes.
+ */
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { AppGrid } from "../AppGrid";

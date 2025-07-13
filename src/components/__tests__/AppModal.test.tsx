@@ -1,3 +1,20 @@
+/**
+ * Testes do componente AppModal
+ *
+ * Este arquivo contém testes unitários para o componente AppModal, responsável por exibir detalhes de um aplicativo selecionado e uma lista de aplicativos recentes em um modal.
+ *
+ * Casos testados:
+ * 1. Não renderização: Verifica se nada é exibido quando selectedApp é nulo.
+ * 2. Detalhes do app: Garante que os detalhes do aplicativo selecionado são exibidos corretamente.
+ * 3. Grid de recentes: Testa se os aplicativos recentes são renderizados na grade.
+ * 4. Seleção de app recente: Garante que a função onSelect é chamada ao clicar em um app recente.
+ * 5. Botão de fechar: Verifica se o botão de fechar está presente no modal.
+ *
+ * Ferramentas utilizadas:
+ * - @testing-library/react: Para renderização e simulação de interações.
+ * - @testing-library/jest-dom: Para asserções customizadas no DOM.
+ * - jest: Para mocks e execução dos testes.
+ */
 import { render, screen, fireEvent } from "@testing-library/react";
 import '@testing-library/jest-dom';
 import { AppModal } from "../AppModal";
