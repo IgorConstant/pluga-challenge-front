@@ -11,18 +11,18 @@ ENG_US: This project is a challenge from Pluga's Front-end hiring process. The g
 - Jest
 - React Testing Library
 
-## Estrutura do Projeto
+## Estrutura do Projeto // Structure of the Project
 
-O projeto está organizado da seguinte forma:
-- `src/`: Contém todo o código-fonte da aplicação.
-  - `components/`: Componentes reutilizáveis.
-  - `app/`: Páginas do Next.js.
-  - `services/`: Chamada da API.
-  - `types/`: Tipos TypeScript e interfaces.
+O projeto está organizado da seguinte forma // The project is organized as follows:
+- `src/`: Contém todo o código-fonte da aplicação. // Contains all the source code of the application.
+  - `components/`: Componentes reutilizáveis. // Reusable components.
+  - `app/`: Páginas do Next.js. // Next.js pages.
+  - `services/`: Chamada da API. // API calls.
+  - `types/`: Tipos TypeScript e interfaces. // TypeScript types and interfaces.
   - `contexts/`: Contextos da aplicação.
 
 
-## Executando o Projeto
+## Executando o Projeto // Running the Project
 1. Clone o repositório:
    ```bash
    git clone <URL_DO_REPOSITORIO>
@@ -44,16 +44,17 @@ O projeto está organizado da seguinte forma:
    http://localhost:3000
    ```  
 
-## Testes
+## Testes // Tests
 
-Para rodar os testes automatizados, siga os passos abaixo:
+PT_BR: Para rodar os testes automatizados, siga os passos abaixo:
+ENG_US: To run the automated tests, follow the steps below:
 
-1. Instale as dependências de teste:
+1. Instale as dependências de teste // Install the testing dependencies:
    ```bash
    npm install --save-dev jest @types/jest ts-jest @testing-library/react @testing-library/jest-dom
    ```
 
-2. Certifique-se de que os arquivos de configuração estejam presentes:
+2. Certifique-se de que os arquivos de configuração estejam presentes // Ensure the configuration files are present:
    - `jest.config.js`:
      ```js
      module.exports = {
@@ -83,9 +84,11 @@ Para rodar os testes automatizados, siga os passos abaixo:
      }
      ```
 
-3. Execute os testes:
+3. Execute os testes // Run the tests:
    ```bash
    npm run test
    ```
 
-Os testes estão localizados em `src/components/__tests__/` e utilizam Jest e React Testing Library para garantir o funcionamento dos componentes.
+PT_BR: Os testes estão localizados em `src/components/__tests__/` e utilizam Jest e React Testing Library para garantir o funcionamento dos componentes.
+
+ENG_US: The tests are located in `src/components/__tests__/` and use Jest and React Testing Library to ensure the functionality of the components.

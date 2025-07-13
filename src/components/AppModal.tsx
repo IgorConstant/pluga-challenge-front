@@ -7,7 +7,7 @@ interface AppModalProps {
   selectedApp: AppType | null;
   recentApps: AppType[];
   onSelect: (app: AppType) => void;
-  modalRef: React.RefObject<HTMLDialogElement>;
+  modalRef: React.RefObject<HTMLDialogElement | null>;
 }
 
 export const AppModal: React.FC<AppModalProps> = ({ selectedApp, recentApps, onSelect, modalRef }) => (
