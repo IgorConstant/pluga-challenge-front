@@ -47,6 +47,7 @@ O projeto está organizado da seguinte forma // The project is organized as foll
 ## Testes // Tests
 
 PT_BR: Para rodar os testes automatizados, siga os passos abaixo:
+
 ENG_US: To run the automated tests, follow the steps below:
 
 1. Instale as dependências de teste // Install the testing dependencies:
