@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { AppType } from "@/types/App";
 
 interface AppCardProps {
@@ -13,11 +14,11 @@ export const AppCard: React.FC<AppCardProps> = ({ app, onClick }) => (
     className="card card-sm group bg-base-100 cursor-pointer transition shadow-sm hover:shadow-lg"
   >
     <figure style={{ backgroundColor: app.color }} className="p-6">
-      <img
+      <Image
         src={app.icon}
         alt={app.name}
-        width="64"
-        height="64"
+        width={64}
+        height={64}
         className="transition group-hover:scale-110"
       />
     </figure>

@@ -28,7 +28,7 @@ export const AppModal: React.FC<AppModalProps> = ({ selectedApp, recentApps, onS
           </div>
         </div>
         <h2 className="text-center">Últimas ferramentas visualizadas</h2>
-        <AppGrid apps={recentApps.toReversed()} onSelect={onSelect} columns={3} />
+        <AppGrid apps={recentApps.slice().reverse()} onSelect={onSelect} columns={3} />
       </div>
     )}
     <form method="dialog" className="modal-backdrop">
