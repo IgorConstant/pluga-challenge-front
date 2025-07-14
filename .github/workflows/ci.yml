@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [pluga-challenge-front-next]
   pull_request:
-    branches: [main]
+    branches: [pluga-challenge-front-next]
 
 permissions:
   contents: read

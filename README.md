@@ -86,7 +86,7 @@ ENG_US: To run the automated tests, follow the steps below:
 
 3. Execute os testes // Run the tests:
    ```bash
-   npm run test
+   npm run test ou npm run test -- --coverage
    ```
 
 PT_BR: Os testes estão localizados em `src/components/__tests__/` e utilizam Jest e React Testing Library para garantir o funcionamento dos componentes.
